@@ -1,0 +1,11 @@
+{
+  "name": "duqueponto",
+  "version": "1.0.0",
+  "description": "página para conseguir bater o ponto no Duque",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paulo Souza",
+  "license": "ISC"
+}
