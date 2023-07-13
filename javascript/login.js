@@ -9,6 +9,8 @@ function handleLogin() {
   users.forEach((user) => {
     if (loginInput === user.email && userPassword === user.password) {
       alert(`Login de ${user.name} efetuado com sucesso!`);
+    } else {
+      alert("teste ok, usuário não é Paulo");
     }
   });
 }
