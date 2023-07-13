@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: rgb(113, 93, 57);
+.body-loginPage {
+  background-color: $marrom1;
   height: 100vh;
 }
 .generalContainer {
@@ -42,7 +42,7 @@ body {
   font-family: "Cinzel Decorative", cursive;
 }
 
-img {
+.img-loginPage {
   height: 92%;
   width: auto;
   transition: 0.4s;
@@ -52,7 +52,7 @@ img {
 }
 
 .form-container {
-  background-color: #472d0e;
+  background-color: $marrom2;
   width: 28rem;
   border: 5px solid black;
   border-top-left-radius: 80px;
@@ -137,9 +137,63 @@ img {
   }
 }
 
+.create-btn {
+  height: 2.7rem;
+  margin-bottom: 2rem;
+  color: wheat;
+  background-color: transparent;
+  border: 2px solid wheat;
+  border-radius: 10px;
+  transition: 0.4s;
+  margin-top: 2.5rem;
+  cursor: pointer;
+  &:hover {
+    opacity: 80%;
+    border: 3px solid wheat;
+    font-size: 1rem;
+  }
+}
+
 .footer {
   font-size: 1.5rem;
   text-align: center;
   margin: 1rem;
   color: white;
+}
+
+//Aqui termina o scss da página de login
+//A partir dessa parte começa o css
+//da página de criação da nova conta.
+
+.body-creationPage {
+  background-color: $marrom1;
+}
+
+.container1,
+.container2,
+form {
+  color: wheat;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  width: 30rem;
+  border: 5px solid black;
+  border-top-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  background-image: $gradient;
+  h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  label {
+    font-size: 1.3rem;
+  }
+  input {
+    padding: 1rem;
+    margin-bottom: 1.4rem;
+    height: 1.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
 }

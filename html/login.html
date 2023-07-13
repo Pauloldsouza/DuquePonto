@@ -19,7 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
   </head>
-  <body>
+  <body class="body-loginPage">
     <div class="generalContainer">
       <!--
       Aqui está o container que tem a imagem e o nome do Duque
@@ -31,7 +31,7 @@
           <p class="small">Estamos a vossa espera!</p>
         </div>
 
-        <img src="../img/teste.png" alt="Foto do Duque" />
+        <img src="../img/teste.png" class="img-loginPage" alt="Foto do Duque" />
       </div>
       <!--
       Aqui está o form de login
@@ -43,6 +43,7 @@
           type="email"
           placeholder="Digite seu email"
           class="form-input1"
+          id="userLogin"
         />
         <label for="userPassword" class="form-label">Palavra-passe</label>
         <div class="union">
@@ -50,6 +51,7 @@
             type="password"
             class="form-input2"
             placeholder="Digite sua senha"
+            id="userPassword"
           />
           <button>
             <span class="material-symbols-outlined"> visibility </span>
@@ -57,11 +59,12 @@
         </div>
         <button class="startSection">Iniciar sessão</button>
         <div class="other-information">
-          <a href="">Registar-se</a>
+          <a href="./create.html">Registar-se</a>
           <a href="">Recuperar Palavra-passe</a>
         </div>
       </div>
     </div>
     <p class="footer">Página criada por &copy;Paulo Souza</p>
+    <script src="../javascript/login.js" type="module"></script>
   </body>
 </html>
