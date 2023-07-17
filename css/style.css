@@ -299,4 +299,13 @@ footer button {
   font-weight: 600;
 }
 
+@media (max-width: 1024px) {
+  .imageContainer {
+    display: none;
+  }
+}
+.verde {
+  background-color: green;
+}
+
 /*# sourceMappingURL=style.css.map */

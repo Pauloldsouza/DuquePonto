@@ -301,3 +301,13 @@ footer {
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .imageContainer {
+    display: none;
+  }
+}
+
+.verde {
+  background-color: green;
+}
